@@ -14,6 +14,7 @@
 1. Genre: 2D platformer
 2. Core mechanic: The player must run through the map while dodging or destroying obstacles (which get progressively harder). The player will have a "sanity" and "awakeness" bar. The sanity bar will lower as the player gets hit and the lower it gets, the more disorienting effects I will add. The awakeness bar can be raised as you hit obstacles and destroy them, and this will apply buffs to the player. Every checkpoint, the player will have to mark one of their arms (shown in a separate UI) however if the sanity bar is really low, I will add disorienting effects to confuse the player to mark the wrong arm.   
 
+[break down draft](https://docs.google.com/drawings/d/1uJg0dZvA5N5NgQdQd8dcje9uOtP9B7NRDVVP-FqppEg/edit)
 
 ## W2
 Write your W2 Devlog here.
