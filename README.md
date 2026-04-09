@@ -17,6 +17,6 @@
 [break down draft](https://docs.google.com/drawings/d/1uJg0dZvA5N5NgQdQd8dcje9uOtP9B7NRDVVP-FqppEg/edit)
 
 ## W2
-Write your W2 Devlog here.
 
-Continue adding additional headers below this one for future weeks and future activities.
+
+[final commit of the day](https://github.com/Evrin1221/uci-gdim33-s25-weekly-activities-GDIM33Activities/commit/78fbc3aa4fde7daa51668336d50dc614b7cf816f)
