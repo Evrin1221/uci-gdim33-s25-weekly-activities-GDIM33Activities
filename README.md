@@ -26,5 +26,5 @@
 
 ### Activity 1
 
-![alt text](<../../../../Pictures/Screenshots/Screenshot 2026-04-15 172020.png>)
 
+![alt text](<Screenshot 2026-04-15 172020.png>)
