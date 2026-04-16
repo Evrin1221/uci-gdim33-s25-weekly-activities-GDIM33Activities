@@ -31,3 +31,19 @@
 
 ### Activity 2
 
+#### Q1
+
+We need to use it to call the event, which is in GameController, but we're trying to call it in walrus, and we can hook the variable name to the script if it's a scene variable instead of naming it in the node in the GameController.
+
+#### Q2
+
+I used a debug node to test the firing of the event from when I click the screen. This part worked, but the game wasn't responding how it should. By adding a debug statement to the receiving end of the event, I could identify that although the event was being fired, something was wrong with how it was being received. 
+
+#### Q3
+
+It's not relevent to my vertical slice because there isn't a moment where the mouse needs to be used for two different things in the same screen. The only time the mouse is used is really brief, and there's an entire screen change instead of just a UI, so I don't think I will be using this. 
+
+#### Q4
+
+Yes. Aside from animations, the sanity bar of my game determines which vfx will be activated. Furthermore I plan on making it so that on low sanity modes, there will be nerf items spawning more often, so I think I will definitely be using a state machine. 
+
