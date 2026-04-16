@@ -20,3 +20,11 @@
 
 
 [final commit of the day](https://github.com/Evrin1221/uci-gdim33-s25-weekly-activities-GDIM33Activities/commit/78fbc3aa4fde7daa51668336d50dc614b7cf816f)
+
+
+## W3
+
+### Activity 1
+
+![alt text](<../../../../Pictures/Screenshots/Screenshot 2026-04-15 172020.png>)
+
