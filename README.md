@@ -84,5 +84,11 @@ Yes. Aside from animations, the sanity bar of my game determines which vfx will 
 
 Yes a writer would be able to add more dialogue, because it's done with scriptable object as opposed to strings stuck in code. The writer just has to make more scriptable objects and type the dialogue, and the programmer can take care of hooking them up
 
-#### Q4
+#### Q2
+
+The writer could probably add all the dialogue lines they want without writing any code if the code is written to scale well
+
+#### Q3
+
+Regenerate nodes allows the visual scripting machine in unity to make nodes out of classes you write yourself, so that you can access code in script in the script machine. 
 
