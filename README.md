@@ -47,3 +47,21 @@ It's not relevent to my vertical slice because there isn't a moment where the mo
 
 Yes. Aside from animations, the sanity bar of my game determines which vfx will be activated. Furthermore I plan on making it so that on low sanity modes, there will be nerf items spawning more often, so I think I will definitely be using a state machine. 
 
+## W4
+
+### Activity 1
+
+#### What is playable:
+- Movement 
+- Small slice of terrain that can be navigated
+- Automatic side scrolling
+- Jump with hold detection
+
+#### Playtesting Goals:
+- Make sure movement is intuitive
+- get feedback for tighter platforming movement especially for the jump (is it floaty, is it too weak etc)
+
+#### Playtesting team:
+- Romarick Anderson, Nicole Yang
+
+#### Playtesting notes:
