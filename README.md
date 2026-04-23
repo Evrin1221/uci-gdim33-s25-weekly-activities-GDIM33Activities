@@ -28,3 +28,6 @@
 
 
 ![alt text](<Screenshot 2026-04-15 172020.png>)
+
+### Activity 2
+
