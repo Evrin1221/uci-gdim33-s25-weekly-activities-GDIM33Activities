@@ -646,6 +646,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextLine: {fileID: 11400000, guid: 47826e2c9fc434313ab40925f08ffcd8, type: 2}
+  firstLine: {fileID: 11400000, guid: 3f96fa003475f284ea0a3e13de9b5974, type: 2}
 --- !u!1 &321970410
 GameObject:
   m_ObjectHideFlags: 0

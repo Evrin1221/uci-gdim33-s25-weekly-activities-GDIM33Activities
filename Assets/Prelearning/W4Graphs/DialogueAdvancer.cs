@@ -4,6 +4,8 @@ using Unity.VisualScripting;
 public class DialogueAdvancer : MonoBehaviour
 {
     [SerializeField] private DialogueNode nextLine;
+    [SerializeField] private DialogueNode firstLine;
+
 
     // Button hooks up to this method
     public void ChooseDialogue ()
@@ -14,5 +16,10 @@ public class DialogueAdvancer : MonoBehaviour
     public void PrintHello ()
     {
         Debug.Log("hello!");
+    }
+
+    private void Start()
+    {
+        EventBus.Trigger(EventNames.NewDialogueEvent, firstLine);
     }
 }
