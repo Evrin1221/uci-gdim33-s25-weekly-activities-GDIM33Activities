@@ -65,3 +65,8 @@ Yes. Aside from animations, the sanity bar of my game determines which vfx will 
 - Romarick Anderson, Nicole Yang
 
 #### Playtesting notes:
+- jump looks kinda floaty
+- I didn't freeze the rotation
+- make sure obstacle jump platforming is somewhat "timed" nicely
+
+### Activity 2
