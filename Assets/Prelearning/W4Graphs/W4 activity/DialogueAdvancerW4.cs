@@ -7,6 +7,8 @@ namespace W4Activity
     {
         // Singleton stuff- allows this class to be accessed from anywhere in the codebase without a reference (like a member variable)
         // do not edit this line
+
+        [SerializeField] private DialogueNodeW4 firstLine;
         public static DialogueAdvancerW4 _Instance {get; private set;}
 
         // More Singleton stuff
@@ -26,5 +28,12 @@ namespace W4Activity
         {
             EventBus.Trigger(VsEventNames.NewDialogueEvent, nextLine);
         }
+        private void Start()
+        {
+            
+            EventBus.Trigger(EventNames.NewDialogueEvent, firstLine);
+            
+        }
+
     }
 }
