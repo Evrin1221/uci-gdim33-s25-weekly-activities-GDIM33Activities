@@ -80,3 +80,9 @@ Yes. Aside from animations, the sanity bar of my game determines which vfx will 
 
 ### Activity 2
 
+#### Q1
+
+Yes a writer would be able to add more dialogue, because it's done with scriptable object as opposed to strings stuck in code. The writer just has to make more scriptable objects and type the dialogue, and the programmer can take care of hooking them up
+
+#### Q4
+
