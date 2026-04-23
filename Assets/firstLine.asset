@@ -13,4 +13,8 @@ MonoBehaviour:
   m_Name: firstLine
   m_EditorClassIdentifier: 
   Line: hello
-  ReplyOptions: []
+  ReplyOptions:
+  - line: hell yea
+    nextNode: {fileID: 11400000, guid: 561379e74e569a245b2b15792c6fe327, type: 2}
+  - line: why...?
+    nextNode: {fileID: 11400000, guid: 683b70dfa8d6daa4e9b76b714f64c955, type: 2}
