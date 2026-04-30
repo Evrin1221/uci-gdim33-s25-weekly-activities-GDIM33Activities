@@ -101,6 +101,30 @@ Regenerate nodes allows the visual scripting machine in unity to make nodes out 
 I will need an enemy manager for my game. My game will have different enemies, varying in movement, visuals, difficulty and spawn rate
 
 1. Create enemy class for all enemy types to inherit from
+    - create member variables of this class such as:
+        - health
+        - spawn rate
+        - attack
+        - speed
+        - detection range
+    - make prefabs for a variety of enemy types.
+        - have each script inherit from the enemy class
+    - code shared behavior like player detection
+        - uses a state machine
+    - override their respective Attack() methods to match the enemy's attack
+    - add a new tilemap in the grid so the autoscroller applies to the enemies
+
 2. Make them spawn
-3. ** Disable them once they go off screen so they don't attack from behind the player **
+    - instantiate enemies from the right side of the screen according to the value of their spawn rate variable
+3. **Disable them once they go off screen so they don't attack from behind the player**
+    - I need to ask someone how to do this because my original thought was to just have a collider that follows from behind and disable everything once it hits it and that doesn't seem like a great idea
+    - basically how do I detect if something is "off screen"
+    - and make the player not able to go "off screen" at all
+
+### Activity 2
+
+
+    
+
+
 
