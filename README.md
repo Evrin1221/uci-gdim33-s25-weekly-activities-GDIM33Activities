@@ -123,6 +123,12 @@ I will need an enemy manager for my game. My game will have different enemies, v
 
 ### Activity 2
 
+[Work from today](https://github.com/Evrin1221/VerticalSlice/commit/23627e2ad2aac693c21dbd03591815729688921c)
+
+I set up the state machine for the base behavior of all of the enemies, and added an enemy variation that inherits from this script.
+I have set up the Attack() method, which is different for all enemies, therefore can be overriden by the individual enemy scripts.
+I've also set up the state machine that handles the behavior of all enemies for roaming, chasing, attacking, and retreating scripts. I've set the enemies to just move in a straight line when they spawn, which will be handled by the autoscroller. Once they're in chasing range, they will follow the player, and once they're in attacking range they'll attack while still sticking to the player unless the player manages to kill or outrun them. 
+There's also an attack duration. Each enemy has a set amount of time they attack for, and if they don't die before that maximum time is over, they retreat and don't go after the player again.
 
     
 
