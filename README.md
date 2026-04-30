@@ -92,3 +92,15 @@ The writer could probably add all the dialogue lines they want without writing a
 
 Regenerate nodes allows the visual scripting machine in unity to make nodes out of classes you write yourself, so that you can access code in script in the script machine. 
 
+## W5
+
+### Activity 1
+
+(I already have my selected system (tilemaps) implemented so I will be working on something else)
+
+I will need an enemy manager for my game. My game will have different enemies, varying in movement, visuals, difficulty and spawn rate
+
+1. Create enemy class for all enemy types to inherit from
+2. Make them spawn
+3. ** Disable them once they go off screen so they don't attack from behind the player **
+
