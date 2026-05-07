@@ -146,6 +146,28 @@ There's also an attack duration. Each enemy has a set amount of time they attack
 
 #### [Itch link](https://evrin-lee.itch.io/sleepless-playtest-2) 
 
+#### Playtest notes:
+- need visual indicator before reversing controls (this is probably applicable for all)
+- enemy system is good, need to build the melee fighting asap for game balance
+
+
+### Activity 2
+
+#### Q1
+
+Because if you multiply values together they get bigger, and larger values represent darker colours
+
+#### Q2
+
+The values get lighter because the values get smaller, and smaller values mean more transparency
+
+#### Q3
+
+The UV map...?
+
+#### Q4
+
+Yes. I also do digital art so I recognized the blending mode names which was just a fun thing I noticed
 
 
 
