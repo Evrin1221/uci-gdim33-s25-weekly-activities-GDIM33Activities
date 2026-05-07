@@ -130,7 +130,22 @@ I have set up the Attack() method, which is different for all enemies, therefore
 I've also set up the state machine that handles the behavior of all enemies for roaming, chasing, attacking, and retreating scripts. I've set the enemies to just move in a straight line when they spawn, which will be handled by the autoscroller. Once they're in chasing range, they will follow the player, and once they're in attacking range they'll attack while still sticking to the player unless the player manages to kill or outrun them. 
 There's also an attack duration. Each enemy has a set amount of time they attack for, and if they don't die before that maximum time is over, they retreat and don't go after the player again.
 
-    
+##  W6
+
+### Activity 1
+
+#### Playtesting goals:
+- enemies are challenging enough to affect gameplay
+- player understands why they're losing health
+- enemy spawning looks good
+- controls feel good
+
+#### New stuff:
+- enemies exist
+- there's a sanity bar
+
+#### [Itch link](https://evrin-lee.itch.io/sleepless-playtest-2) 
+
 
 
 
