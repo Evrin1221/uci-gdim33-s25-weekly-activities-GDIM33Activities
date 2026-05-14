@@ -170,4 +170,32 @@ The UV map...?
 Yes. I also do digital art so I recognized the blending mode names which was just a fun thing I noticed
 
 
+## W7
 
+### Q1
+
+The UV map of the shiba...?
+
+### Q2
+
+Because the values of two different coloured vertices are interpolated across the triangles between them, making the different colours blend
+
+### Q3
+
+Because the texture from last week was probably made/painted to have all of the details in, such as flush and different shades of shiba fur across the body, and when we coloured it this week with just code, we just let the colours blend using interpolation. Vertex colour could be useful for low poly or anything you might not want to paint a detailed texture for. 
+
+### Q4
+
+The normals are "backwards" which is probably why it got lit backwards when we tried to apply lighting to it
+
+### Q5
+
+We could use it to identify if the normals in the model match our intended x,y,z directions. It could be useful if a texture isn't being applied as intended because it might be something to do with which component we're assinging stuff to
+
+### Q6
+
+Because the normals of the shiba (the ones that face the light) are pointing at the opposite direction of the light. The dot product of opposite facing vectors results in a negative value, therefore the shadows appear on the light and the light in the shadows. 
+
+### Q7
+
+I think we use it because we want the noise texture below to be preserved. From what I know from digital painting, the "add" blending mode makes the stuff in the layer bright and shiny and transparent, so I'm assuming it's doing something similar here. 
