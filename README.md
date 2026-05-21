@@ -199,3 +199,26 @@ Because the normals of the shiba (the ones that face the light) are pointing at 
 ### Q7
 
 I think we use it because we want the noise texture below to be preserved. From what I know from digital painting, the "add" blending mode makes the stuff in the layer bright and shiny and transparent, so I'm assuming it's doing something similar here. 
+
+
+## W8
+
+### Activity 1
+
+#### Playtest goals:
+- is it intuitive
+- do players understand the loop - enemies spawn, you kill them, or they bring your sanity down
+- animation that plays when your controls get reversed
+
+* new stuff since milestone 2: more animations
+
+[link](https://evrin-lee.itch.io/sleepless-playtest2)
+
+#### Playtest notes:
+- people like the grenades
+- need more vfx or sfx to indicate when something is happening/changing
+- gotta actually finish the terrain
+
+* note to self: tech support for: whys the dizzy halo appearing early, why's the UI appearing somewhere weird
+
+
