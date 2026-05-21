@@ -222,3 +222,5 @@ I think we use it because we want the noise texture below to be preserved. From 
 * note to self: tech support for: whys the dizzy halo appearing early, why's the UI appearing somewhere weird
 
 
+### Activity 2B
+
