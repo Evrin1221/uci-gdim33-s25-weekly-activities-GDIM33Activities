@@ -224,3 +224,18 @@ I think we use it because we want the noise texture below to be preserved. From 
 
 ### Activity 2B
 
+#### Q1
+
+The fraction node takes the fractional part of the float (the part after the decimal point) meaning even though the time value keeps going up the fractional values keep cycling. this means the animation is gonna keep looping.
+
+#### Q2
+
+Because the add node can't add anything if the background is white. (idk how to explain this but I know it's something like that because I do digital painting and stuff in the add layer doesn't show up on a white background lol)
+
+#### Q3
+
+Although you set the main texture's default value as the buildings, each sprite's renderer overrides that value, so we don't see the buildings in game. 
+
+#### Q4 
+
+We need the fraction of the time w the speed value multiplied to it so that it'd actually cycle. if you multiplied the speed value AFTER fractioning the time value it won't cycle right. for example, at 1.4 it'd take the 0.4 part, and times it by let's say 2 so the value would be 0.8. but at 1.6 seconds, fractioning it would give 0.6, which after multiplying by speed would be 1.2. The values need to stay under 1 as they cycle for it to work.
