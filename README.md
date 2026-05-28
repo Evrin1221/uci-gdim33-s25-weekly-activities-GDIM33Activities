@@ -248,9 +248,16 @@ Detroit Become Human
 ![alt text](<Screenshot 2026-05-27 174017.png>) ![alt text](<Screenshot 2026-05-27 174056.png>)
 ![alt text](<Screenshot 2026-05-27 174308.png>)
 
-#### Activity 2
+##### Part 2
 
 We would need to change the rendering effect on the camera to turn down the saturation on everything. (this is a full screen rendering effect)
 
 We would also need to make a second shader, attach the shader to a material and add the material to every interactable object. We need to code the shader to give the object a blue hue. Then we'd need to turn it on whenever we enter "robot view" and turn it off in normal view in code. (this is an object specific effect)
+
+#### Activity 2
+
+![alt text](<Screenshot 2026-05-27 185324.png>)![alt text](<Screenshot 2026-05-27 185347.png>)
+
+This is the shader I worked on today. It makes the screen all wobbly and I'm planning on adding code to activate it when the player's sanity reaches a certain level
+I had a problem where I couldn't see the scene when I made the shader, it turned out I was passing the URP Sample buffer node in the wrong mode so I changed it to blitSource and the rest of the shader started working
 
