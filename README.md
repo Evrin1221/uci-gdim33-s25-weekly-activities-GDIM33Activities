@@ -239,3 +239,18 @@ Although you set the main texture's default value as the buildings, each sprite'
 #### Q4 
 
 We need the fraction of the time w the speed value multiplied to it so that it'd actually cycle. if you multiplied the speed value AFTER fractioning the time value it won't cycle right. for example, at 1.4 it'd take the 0.4 part, and times it by let's say 2 so the value would be 0.8. but at 1.6 seconds, fractioning it would give 0.6, which after multiplying by speed would be 1.2. The values need to stay under 1 as they cycle for it to work.
+
+### W9
+
+#### Activity 1
+
+Detroit Become Human
+![alt text](<Screenshot 2026-05-27 174017.png>) ![alt text](<Screenshot 2026-05-27 174056.png>)
+![alt text](<Screenshot 2026-05-27 174308.png>)
+
+#### Activity 2
+
+We would need to change the rendering effect on the camera to turn down the saturation on everything. (this is a full screen rendering effect)
+
+We would also need to make a second shader, attach the shader to a material and add the material to every interactable object. We need to code the shader to give the object a blue hue. Then we'd need to turn it on whenever we enter "robot view" and turn it off in normal view in code. (this is an object specific effect)
+
