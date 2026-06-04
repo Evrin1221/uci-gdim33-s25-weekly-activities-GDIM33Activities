@@ -299,6 +299,8 @@ Planning in detail can help you spot when a game is out of scope, before it gets
 ### Activity 3
 
 
+[commit link](https://github.com/Evrin1221/VerticalSlice/commit/266c0c04943592d3908fa60a78e266eef6ec2045)
+
 
 
 
