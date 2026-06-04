@@ -282,6 +282,23 @@ I had a problem where I couldn't see the scene when I made the shader, it turned
 - people like the wobble effect
 - people know why they're being penalized
 - no one could tell there was a speed buff lmao
+- game balance kinda off
+
+### Activity 2
+
+- pick a genre/ main goal for game
+- start with something fun/simple/easy to keep momentum (usually movement because you can't do anything without it)
+- Define a main concept/mechanic of the game and start on that
+- draw an overarching diagram
+- decide locator variables early
+- Basic UI
+- playtest, and start on what's limiting the experience the most while playing
+
+Planning in detail can help you spot when a game is out of scope, before it gets disproportionately big for the allocated time. Planning is also kind of part of the scope because to maximize efficiency, it's better to make every system with some kind of plan, and ignoring the amount of time it takes to make a good plan could blow the game out of scope. 
+
+### Activity 3
+
+
 
 
 
