@@ -301,6 +301,8 @@ Planning in detail can help you spot when a game is out of scope, before it gets
 
 [commit link](https://github.com/Evrin1221/VerticalSlice/commit/266c0c04943592d3908fa60a78e266eef6ec2045)
 
+I capped the sanity and awakeness and wrote the method that transfers awakeness to sanity if the player reaches sanity = 0 
+
 
 
 
