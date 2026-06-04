@@ -261,3 +261,28 @@ We would also need to make a second shader, attach the shader to a material and 
 This is the shader I worked on today. It makes the screen all wobbly and I'm planning on adding code to activate it when the player's sanity reaches a certain level
 I had a problem where I couldn't see the scene when I made the shader, it turned out I was passing the URP Sample buffer node in the wrong mode so I changed it to blitSource and the rest of the shader started working
 
+
+### W10
+
+### Activity 1
+
+#### Playtesting goals:
+- test all my new stuff on new people to see if the mechanics are intuitive
+- do players understand why they're being penalized or rewarded
+
+[game link](https://evrin-lee.itch.io/milestone-3)
+
+#### New stuff:
+- awakeness bar
+- melee attack
+- health potions
+- wobbly shader
+
+#### Playtesting notes:
+- people like the wobble effect
+- people know why they're being penalized
+- no one could tell there was a speed buff lmao
+
+
+
+
